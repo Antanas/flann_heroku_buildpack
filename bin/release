@@ -3,4 +3,5 @@ cat <<EOF
 ---
 config_vars:
 PATH: $PATH:/app/vendor/flann
+LD_LIBRARY_PATH: $LD_LIBRARY_PATH:/bin
 EOF

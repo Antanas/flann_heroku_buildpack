@@ -9,3 +9,4 @@ cd bin
 # download the binaries (-O) silently (-s)
 curl -o libflann.so https://fashter-development.s3-us-east-2.amazonaws.com/flann/libflann.so?X-Amz-Algorithm=AWS4-HMAC-SHA256\&X-Amz-Credential=AKIAI7DZFJVDDQPFM5PA/20170628/us-east-2/s3/aws4_request\&X-Amz-Date=20170628T083901Z\&X-Amz-Expires=604800\&X-Amz-SignedHeaders=host\&X-Amz-Signature=25f1fc9851aeceb103e9145408e291112bd70e157a0a1f03cf7570faf14885b8
 curl -o libflann_s.a https://fashter-development.s3-us-east-2.amazonaws.com/flann/libflann_s.a?X-Amz-Algorithm=AWS4-HMAC-SHA256\&X-Amz-Credential=AKIAI7DZFJVDDQPFM5PA/20170628/us-east-2/s3/aws4_request\&X-Amz-Date=20170628T083924Z\&X-Amz-Expires=604800\&X-Amz-SignedHeaders=host\&X-Amz-Signature=4f05070f0ea919ed2b9240654bd21c2ba2282ec19802b40ab2257ec36d09f060
+

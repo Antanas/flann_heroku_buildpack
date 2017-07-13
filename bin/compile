@@ -10,7 +10,7 @@ PROFILE_D_DIR=$1/.profile.d
 cd $1
 cd bin
 # download the binaries (-O) silently (-s)
-curl -o https://fashter-development.s3-us-east-2.amazonaws.com/flann/libflann.so?X-Amz-Algorithm=AWS4-HMAC-SHA256\&X-Amz-Credential=AKIAI7DZFJVDDQPFM5PA/20170713/us-east-2/s3/aws4_request\&X-Amz-Date=20170713T183649Z\&X-Amz-Expires=604800\&X-Amz-SignedHeaders=host\&X-Amz-Signature=ac9cb21ddd864d9e12059e3f63d6ff91d8ecd0ab24a9ded7d07478d2cc5c7f7b
+curl -o libflann.so https://fashter-development.s3-us-east-2.amazonaws.com/flann/libflann.so?X-Amz-Algorithm=AWS4-HMAC-SHA256\&X-Amz-Credential=AKIAI7DZFJVDDQPFM5PA/20170713/us-east-2/s3/aws4_request\&X-Amz-Date=20170713T183649Z\&X-Amz-Expires=604800\&X-Amz-SignedHeaders=host\&X-Amz-Signature=ac9cb21ddd864d9e12059e3f63d6ff91d8ecd0ab24a9ded7d07478d2cc5c7f7b
 
 mkdir -p $PROFILE_D_DIR
 cat << EOF > $PROFILE_D_DIR/flann_heroku_buildpack.sh
